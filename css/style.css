@@ -11,8 +11,8 @@ body {
 	font-size: 16px;
 	line-height: 1.6;
 	background-color: #f9f9f9;
-	display: grid;
-	grid-template-rows: 18em 1fr 5em;
+	/* display: grid;
+	grid-template-rows: 18em 1fr 5em; */
 	
 	
 	
@@ -58,13 +58,7 @@ hr {
 	margin: 1.6rem 0 1.6rem;
 }
 
-.main.module.container {
-	display: grid;
-	/* background-color: green; */
-	
-	
 
-}
 
 .module:nth-child(1) {
 	margin: 0 0 1.6rem;
@@ -202,7 +196,7 @@ hr {
 		border-radius: 0.6rem;
 		margin: 0;
 		grid-column-gap: 20px;
-		max-height: 100%;
+	
 
 	}
 
@@ -210,6 +204,7 @@ hr {
 		width: 100%;
 		border-radius: 0.6rem;
 		margin: 0;
+		
 
 	}
 }
